@@ -1,0 +1,59 @@
+
+.picture{
+
+    background-color:burlywood; 
+    height: 300;
+    width: 200;
+    border: solid;
+    padding: auto;
+    position: relative;
+    left: 1003;
+    top: 10;
+}
+.picture :hover{
+    background-color: azure;
+}
+.biography{
+    background-color:brown;
+    height: 300;
+    width: 500;
+    border: solid;
+    padding: auto;
+    position: relative;
+    bottom: 295;
+    right: 3;
+}
+.hobbies{
+    background-color: rgb(217, 220, 20);
+    height: 300;
+    width: 500;
+    border: solid;
+    padding: auto;
+    position: relative;
+    top: 10;
+    right: 4;
+}
+.education{
+    background-color: rgb(20, 133, 220);
+    height: 300;
+    width: 500;
+    border: solid;
+    padding: auto;
+    position: relative;
+    left: 500;
+    bottom: 600;
+}
+.contact{
+    background-color:green;
+    height: 300;
+    width: 200;
+    border: solid;
+    padding: auto;
+    position: relative;
+    left: 1003;
+    bottom: 600;
+
+}
+.contact:hover, .biography:hover, .education:hover,.hobbies:hover, .picture:hover{
+    background-color: rgb(255, 0, 140);
+}
